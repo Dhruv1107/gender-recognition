@@ -1,10 +1,10 @@
-# gender_recognition_svm
+# gender_recognition
 ## Summary
-gender_recognition_svm is a python script that can detect the gender of a speaker in an audio recording using a Support Vector Machine. It was trained using the Gender Recognition by Voice kaggle set and uses pyaudio and praat scripting to record and extract features from audio segments. It performs at approximately 96% accuracy. 
+gender_recognition is a python script that can detect the gender of a speaker in an audio recording using a Support Vector Machine. It was trained using the Gender Recognition by Voice kaggle set and uses pyaudio and praat scripting to record and extract features from audio segments. It performs at approximately 96% accuracy. 
 
 ## Running Script 
 ```
-$ python ./train_svm.py
+$ python train_svm.py
 ```
 ## Motivation
 Speech processing is a rapidly growing area in the field of Machine Learning. While speech recognition has become almost ubiquitous with the technologies we use, it is seldom used for more than simply transcribing speech to text. While digital phones have introduced speech recognition to bridge the gap between human and computers, it has failed to create Artificial Intelligence that can understand more than what we are saying. To truly have seamless human-computer interaction, we must produce devices that understand more than what humans tell it. It must have clairvoyance. The prime motivation of this project is to produce a classifier that can detect the gender of a speaker. Possible real world applications of this project are: 
